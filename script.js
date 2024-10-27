@@ -88,3 +88,50 @@ window.onload = function() {
                 el.classList.remove('fade-in-up');
                 el.classList.add('fade-out');
             });            
+             toolsGridElementsDown.forEach(el => {
+                el.classList.remove('fade-in-down');
+                el.classList.add('fade-out');
+            });
+        }
+    }
+
+    function animateSertifikat() {
+        if (isInViewport(sertifikatSection)) {
+            // Animasi Aditya dan Wisnu masuk dari kanan
+            adityaElement.classList.add('fade-in-right');
+            adityaElement.classList.remove('fade-out-right');
+
+            wisnuElement.classList.add('fade-in-right');
+            wisnuElement.classList.remove('fade-out-right');
+
+            // Animasi Yoga masuk dari kiri
+            yogaElement.classList.add('fade-in-left');
+            yogaElement.classList.remove('fade-out-left');
+        } else {
+            // Animasi Aditya dan Wisnu keluar ke kanan
+            adityaElement.classList.remove('fade-in-right');
+            adityaElement.classList.add('fade-out-right');
+
+            wisnuElement.classList.remove('fade-in-right');
+            wisnuElement.classList.add('fade-out-right');
+
+            // Animasi Yoga keluar ke kiri
+            yogaElement.classList.remove('fade-in-left');
+            yogaElement.classList.add('fade-out-left');
+        }
+    }
+
+    // Panggil fungsi animasi pada scroll
+    window.addEventListener('scroll', () => {
+        animateSkills();
+        animatePengalaman();
+        animateTools();
+        animateSertifikat(); // Panggil animasi sertifikat saat scroll
+    });
+
+    // Panggil fungsi animasi saat halaman pertama kali dimuat
+    animateSkills();
+    animatePengalaman();
+    animateTools();
+    animateSertifikat();
+};
