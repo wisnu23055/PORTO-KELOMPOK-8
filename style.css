@@ -654,3 +654,333 @@ body{
 .grid-tools-3{
     background-color: rgb(228, 177, 240);
     text-align: center;
+ border-radius: 40px;    
+}
+.Github{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.Github-img img{
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 0 10px 19px rgba(0, 0, 0, 0.3);
+}
+.grid-tools-4{
+    background-color: rgb(255, 225, 255);
+    text-align: center;
+    border-radius: 40px;
+}
+.Unity{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.Unity-img img{
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 0 10px 19px rgba(0, 0, 0, 0.3);
+}
+.grid-tools-5{
+    background-color: rgb(228, 177, 240);
+    text-align: center;
+    border-radius: 40px;
+}
+.Blender{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.Blender-img img{
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 0 10px 19px rgba(0, 0, 0, 0.3);
+}
+.grid-tools-6{
+    background-color: rgb(255, 225, 255);
+    text-align: center;
+    border-radius: 40px;
+}
+.Adobe{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.Adobe-img img{
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 0 10px 19px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 2s ease forwards;
+}
+
+.fade-in-down {
+    animation: fadeInDown 2s ease forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ini adalah halaman 5 */
+.halaman-lima{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.halaman-lima-bungkus{
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 1300px;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgb(228, 177, 240);
+}
+.halaman-lima-bungkus h1{
+    text-align: center;
+    font-size: 250%;
+}
+
+/* Aditya */
+.latar-aditya{
+    border-radius: 20px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(255, 225, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gambar-aditya{
+    float: left;
+}
+.gambar-aditya img{
+    width: 250px;
+    border-radius: 20px;
+}
+.teks-aditya{
+    width: 850px;
+    float: left;
+    margin-left: 30px;
+}
+.teks-aditya h2{
+    width: 320px;
+    background-color: rgb(67, 56, 120);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px
+}
+.teks-aditya p{
+    margin-top: 40px;
+    font-size: 120%;
+    text-align: justify;
+}
+
+
+/* Yoga */
+.latar-yoga {
+    border-radius: 20px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(255, 225, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gambar-yoga {
+    order: 2;
+}
+
+.gambar-yoga img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.teks-yoga {
+    width: 850px;
+    margin-right: 30px;
+}
+
+.teks-yoga h2 {
+    width: 320px;
+    background-color: rgb(67, 56, 120);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.teks-yoga p {
+    margin-top: 40px;
+    font-size: 120%;
+    text-align: justify;
+}
+
+/* Wisnu */
+.latar-wisnu{
+    border-radius: 20px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(255, 225, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gambar-wisnu{
+    float: left;
+}
+.gambar-wisnu img{
+    width: 250px;
+    border-radius: 20px;
+}
+.teks-wisnu{
+    width: 850px;
+    float: left;
+    margin-left: 30px;
+}
+.teks-wisnu h2{
+    width: 320px;
+    background-color: rgb(67, 56, 120);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px
+}
+.teks-wisnu p{
+    margin-top: 40px;
+    font-size: 120%;
+    text-align: justify;
+}
+
+/* Animasi memudar dan bergerak dari kanan */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOutRight {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+/* Animasi memudar dan bergerak dari kiri */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOutLeft {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+}
+
+/* Tambahkan kelas untuk efek animasi */
+.fade-in-right {
+    animation: fadeInRight 2s forwards;
+}
+
+.fade-out-right {
+    animation: fadeOutRight 2s forwards;
+}
+
+.fade-in-left {
+    animation: fadeInLeft 2s forwards;
+}
+
+.fade-out-left {
+    animation: fadeOutLeft 2s forwards;
+}
+
+
+
+
+
+/* penutup */
+.latar-penutup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.bungkus-penutup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 1300px;
+    height: 100px;
+    background-color: rgb(67, 56, 120);
+}
+.bungkus-penutup p{
+    color: white;
+}
