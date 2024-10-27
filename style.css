@@ -326,3 +326,331 @@ body{
     text-align: center;
 }
 .copywriting{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.copywriting-p{
+    margin: 60px 40px;
+    font-size: 150%;
+    color: rgb(67, 56, 120);
+}
+
+.grid-skill-5{
+    background-color: rgb(255, 225, 255);
+    text-align: center;
+}
+.dblender{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.dblender-p{
+    margin: 60px 40px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+
+.grid-skill-6{
+    background-color: rgb(228, 177, 240);
+    text-align: center;
+}
+.dunity{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.dunity-p{
+    margin: 60px 40px;
+    font-size: 150%;
+    color: rgb(67, 56, 120);
+}
+
+/* Animasi masuk dari kiri */
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Animasi masuk dari kanan */
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Class untuk animasi masuk dari kiri */
+.fade-in-left {
+    animation: fadeInLeft 2s ease forwards;
+}
+
+/* Class untuk animasi masuk dari kanan */
+.fade-in-right {
+    animation: fadeInRight 2s ease forwards;
+}
+
+/* Class untuk animasi keluar (hilang) */
+.fade-out {
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ini adalah halaman 3 */
+
+.latar-tiga{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.halaman-tiga{
+    width: 1300px;
+    height: 1149px;
+}
+.halaman-tiga-1{
+    padding: 0px;
+    margin-top: 50px;
+    width: 1300px;
+    height: 325px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.3);
+}
+.halaman-tiga-1-gambar{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.halaman-tiga-1-gambar img{
+    width:300px;
+    float: left;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.halaman-tiga-1-deskripsi{
+    padding: 0px;
+    width:860px;
+    float: left;
+    margin-left: 30px;
+}
+.halaman-tiga-1-deskripsi p{
+    font-size: 150%;
+    text-align: justify;
+}
+.halaman-tiga-1-deskripsi h1{
+    color: rgb(92, 70, 156);
+}
+.halaman-tiga-2{
+    padding: 0px;
+    margin-top: 10px;
+    width: 1300px;
+    height: 325px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.3);
+}
+.halaman-tiga-2-gambar{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.halaman-tiga-2-gambar img{
+    width:300px;
+    float: left;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.halaman-tiga-2-deskripsi{
+    padding: 0px;
+    width:860px;
+    float: left;
+    margin-left: 30px;
+}
+.halaman-tiga-2-deskripsi p{
+    font-size: 150%;
+    text-align: justify;
+}
+.halaman-tiga-2-deskripsi h1{
+    color: rgb(92, 70, 156);
+}
+
+
+.halaman-tiga-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 1300px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(92, 70, 156);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+.halaman-tiga-3-deskripsi h1{
+    text-align: center;
+    color: white;
+}
+.latar-projek img{
+    width: 390px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Animasi masuk dari atas */
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animasi masuk dari bawah */
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Class untuk animasi masuk dari atas */
+.fade-in-top {
+    animation: fadeInTop 2s ease forwards;
+}
+
+/* Class untuk animasi masuk dari bawah */
+.fade-in-bottom {
+    animation: fadeInBottom 2s ease forwards;
+}
+
+/* Class untuk animasi keluar (hilang) */
+.fade-out {
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ini adalah halaman 4 */
+
+.halaman-empat{
+    margin-top: 180px;
+    clear: both;
+    width: 100%;
+    height: 1050px;
+    border-radius: 40px;
+    background-color: rgb(67, 56, 120);
+}
+.halaman-empat-tools p{
+    font-size: 250%;
+    position: relative;
+    top: 70px;
+    color: white;
+    text-align: center;
+}
+.background-grid-empat{
+    display: grid;
+    position: relative;
+    top: 40px;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(2 ,1fr);
+    gap: 20px;
+    width: 1300px;
+    height: 820px;
+    /* background-color: white; */
+    margin: 80px auto;
+}
+.grid-tools-1{
+    background-color: rgb(228, 177, 240);
+    text-align: center;
+    border-radius: 40px;
+}
+.Figma{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.Figma-img img{
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 0 10px 19px rgba(0, 0, 0, 0.3);
+}
+.grid-tools-2{
+    background-color: rgb(255, 225, 255);
+    text-align: center;
+    border-radius: 40px;
+}
+.Canva{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.Canva-img img{
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 0 10px 19px rgba(0, 0, 0, 0.3);
+}
+.grid-tools-3{
+    background-color: rgb(228, 177, 240);
+    text-align: center;
