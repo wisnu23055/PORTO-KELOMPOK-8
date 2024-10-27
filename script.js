@@ -43,3 +43,48 @@ window.onload = function() {
                 el.classList.add('fade-in-right');
                 el.classList.remove('fade-out');
             });
+        } else {
+            gridLeftElements.forEach(el => {
+                el.classList.remove('fade-in-left');
+                el.classList.add('fade-out');
+            });
+            gridRightElements.forEach(el => {
+                el.classList.remove('fade-in-right');
+                el.classList.add('fade-out');
+            });
+        }
+    }
+
+    function animatePengalaman() {
+        if (isInViewport(pengalamanSection)) {
+            pengalamanElement.classList.add('fade-in-top');
+            pengalamanElement.classList.remove('fade-out');
+            projekElement.classList.add('fade-in-bottom');
+            projekElement.classList.remove('fade-out');
+            contohProjekElement.classList.add('fade-in-bottom');
+            contohProjekElement.classList.remove('fade-out');
+        } else {
+            pengalamanElement.classList.remove('fade-in-top');
+            pengalamanElement.classList.add('fade-out');
+            projekElement.classList.remove('fade-in-bottom');
+            projekElement.classList.add('fade-out');
+            contohProjekElement.classList.remove('fade-in-bottom');
+            contohProjekElement.classList.add('fade-out');
+        }
+    }
+
+    function animateTools() {
+        if (isInViewport(toolsSection)) {
+            toolsGridElementsUp.forEach(el => {
+                el.classList.add('fade-in-up');
+                el.classList.remove('fade-out');
+            });
+            toolsGridElementsDown.forEach(el => {
+                el.classList.add('fade-in-down');
+                el.classList.remove('fade-out');
+            });
+        } else {
+            toolsGridElementsUp.forEach(el => {
+                el.classList.remove('fade-in-up');
+                el.classList.add('fade-out');
+            });            
