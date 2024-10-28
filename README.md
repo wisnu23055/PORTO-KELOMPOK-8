@@ -48,7 +48,7 @@ Tujuan dari website ini adalah sebagai sumber inspirasi dan untuk memperkenalkan
    - **Penjelasan Kode**: Setiap file memiliki komentar yang menjelaskan fungsi utama dari tiap bagian kode.
    - **Struktur Folder**:
      - `index.html` - File utama halaman web.
-     - `styles.css` - File CSS untuk pengaturan tampilan.
+     - `style.css` - File CSS untuk pengaturan tampilan.
      - `script.js` - File JavaScript untuk fungsi interaktif.
    - **SRS (Software Requirements Specification)**:
      - **Tujuan**: Menciptakan halaman web portofolio yang menarik dan mudah dinavigasi.
