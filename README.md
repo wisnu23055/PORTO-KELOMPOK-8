@@ -2,8 +2,10 @@
 
 ## 📖 Deskripsi Proyek
 Website portofolio "Group Eight" adalah sebuah web yang kami kembangkan oleh mahasiswa D4 Manajemen Informatika untuk memperkenalkan keterampilan, pengalaman, proyek, contoh proyek, tools, serta sertifikasi yang kami miliki. Website ini dibuat sebagai implementasi dari mata kuliah Pemrograman Website untuk mengasah keterampilan teknis serta membangun personal branding tim melalui media digital.
-
 Tujuan dari website ini adalah sebagai sumber inspirasi dan untuk memperkenalkan keterampilan relevan di industri teknologi dan desain kepada khalayak umum.
+
+
+
 
 ---
 
