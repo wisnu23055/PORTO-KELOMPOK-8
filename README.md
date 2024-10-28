@@ -1,4 +1,4 @@
-# 🌐 Nama Proyek: Website Portofolio "Group Eight"
+# 🌐 Website Portofolio "Group Eight"
 
 ## 📖 Deskripsi Proyek
 Website portofolio "Group Eight" adalah sebuah web yang kami kembangkan oleh mahasiswa D4 Manajemen Informatika untuk memperkenalkan keterampilan, pengalaman, proyek, contoh proyek, tools, serta sertifikasi yang kami miliki. Website ini dibuat sebagai implementasi dari mata kuliah Pemrograman Website untuk mengasah keterampilan teknis serta membangun personal branding tim melalui media digital.
@@ -34,7 +34,7 @@ Klik tautan di atas untuk mengakses website portofolio ini.
 
    - **Flex & Grid**: Mengatur tata letak agar tetap rapi di berbagai ukuran layar.
    - **Warna & Tipografi**: Menggunakan skema warna lembut dan tipografi konsisten untuk meningkatkan estetika.
-   - **Animasi & Hover Effects**: Efek hover pada tombol dan elemen gambar untuk interaksi yang lebih dinamis.
+   - **Animasi & Hover Effects**: Efek hover pada tombol navbar dan elemen gambar instagram dan email untuk interaksi yang lebih dinamis.
    - **Media Queries**: Mengoptimalkan tampilan di perangkat desktop agar tetap responsif.
 
    Dengan teknik-teknik di atas, halaman web ini memiliki tampilan yang modern dan profesional.
