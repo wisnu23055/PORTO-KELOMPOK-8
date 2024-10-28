@@ -67,4 +67,4 @@ Tujuan dari website ini adalah sebagai sumber inspirasi dan untuk memperkenalkan
 ---
 
 ## 📜 Kesimpulan
-Proyek ini dirancang dengan HTML, CSS, dan JavaScript untuk menciptakan halaman portofolio yang responsif, menarik, dan fungsional. Dokumentasi dan SRS memastikan halaman ini mudah dipahami dan dikembangkan lebih lanjut oleh pengguna lain.
+Proyek ini dirancang dengan HTML, CSS, dan JavaScript untuk menciptakan halaman portofolio yang responsif, menarik, dan fungsional. Dokumentasi dan SRS memastikan halaman ini mudah dipahami oleh pengguna lain.
