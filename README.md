@@ -21,7 +21,7 @@ Klik tautan di atas untuk mengakses website portofolio ini.
    - **Header**: Berisi navigasi utama dengan tautan ke bagian **Home**, **Skill**, **Pengalaman**, **Tools**, dan **Sertifikat**.
    - **Main Content**:
      - **Home Section**: Menampilkan foto profil, deskripsi singkat, kontak pribadi, serta tautan ke email dan Instagram.
-     - **Skill Section**: Informasi singkat tentang keterampilan yang kami miliki.
+     - **Skill Section**: Informasi singkat tentang skill dan keterampilan yang kami miliki.
      - **Pengalaman Section**: Informasi tentang pengalaman kami serta menampilkan proyek-proyek dengan gambar dan tautan masing-masing.
      - **Tools Section**: Daftar tools yang biasa digunakan.
      - **Sertifikat Section**: Menampilkan foto sertifikat yang dimiliki dengan tautan ke masing-masing sertifikat.
