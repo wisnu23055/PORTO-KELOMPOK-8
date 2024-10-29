@@ -58,7 +58,7 @@ Klik tautan di atas untuk mengakses website portofolio ini.
      - `script.js` - File JavaScript untuk fungsi interaktif.
    - **SRS (Software Requirements Specification)**:
      - **Tujuan**: Menciptakan halaman web portofolio yang menarik dan mudah dinavigasi.
-     - **Fungsi Utama**: Menampilkan informasi pribadi, pengalaman, dan kontak.
+     - **Fungsi Utama**: Menampilkan informasi pribadi, kontak, skill, pengalaman, tools dan sertifikat.
      - **Spesifikasi Pengguna**: Responsif, mudah digunakan, dan interaktif.
      - **Batasan**: Fitur hanya mendukung browser modern dan tampilan desktop.
 
