@@ -1,0 +1,12 @@
+CREATE DATABASE web_komentar;
+
+USE web_komentar;
+
+CREATE TABLE saran (
+    id int(11) NOT NULL AUTO_INCREMENT,
+    nama varchar(100) COLLATE utf8mb4_general_ci NOT NULL,
+    email varchar(100) COLLATE utf8mb4_general_ci NOT NULL,
+    saran text COLLATE utf8mb4_general_ci NOT NULL,
+    tanggal timestamp NOT NULL DEFAULT current_timestamp(),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
