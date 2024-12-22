@@ -203,6 +203,23 @@
                 </div>
            </div>
 
+            <!-- Saran atau Komentar -->
+            <div class="saran-komentar" style="width: 1260px; margin: 20px auto; padding: 20px; background-color: rgb(228, 177, 240); border-radius: 20px; ">
+                <h2 style="text-align: center; font-size: 24px; margin-bottom: 20px; border-radius: 15px;">Berikan Saran atau Komentar Anda</h2>
+                <form action="simpan_saran.php" method="POST" style="display: flex; flex-direction: column;">
+                    <label for="nama" style="font-size: 16px; margin-bottom: 8px;">Nama:</label>
+                    <input type="text" id="nama" name="nama" required style="padding: 10px; font-size: 16px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 10px; width: 98%;">
+
+                    <label for="email" style="font-size: 16px; margin-bottom: 8px;">Email:</label>
+                    <input type="email" id="email" name="email" required style="padding: 10px; font-size: 16px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 10px; width: 98%;">
+
+                    <label for="saran" style="font-size: 16px; margin-bottom: 8px;">Saran atau Komentar:</label>
+                    <textarea id="saran" name="saran" rows="4" required style="padding: 10px; font-size: 16px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 10px; width: 98%;"></textarea>
+
+                    <button type="submit" name="submit" style="padding: 10px 20px; font-size: 16px; background-color: rgb(67, 56, 120); color: white; border: none; border-radius: 10px; cursor: pointer; transition: background-color 0.3s ease;">Kirim</button>
+                </form>
+            </div>
+
            <!-- penutup -->
             <div class="latar-penutup">
                 <div class="bungkus-penutup">
