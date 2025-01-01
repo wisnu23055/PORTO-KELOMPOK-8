@@ -8,7 +8,7 @@ Tujuan dari website ini adalah sebagai sumber inspirasi dan untuk memperkenalkan
 Anda dapat melihat halaman web ini melalui domain berikut:
 - https://portofolio-8.wuaze.com
 
-Klik tautan di atas untuk mengakses website portofolio ini.
+Klik atau salin tautan di atas untuk mengakses website portofolio ini.
 
 
 ---
