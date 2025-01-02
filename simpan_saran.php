@@ -1,9 +1,9 @@
 <?php
 // Koneksi ke database
-$host = 'sql108.infinityfree.com';
-$username = 'if0_38020513'; // default XAMPP username
-$password = '3p92azwKBbWar'; // default XAMPP password
-$dbname = 'if0_38020513_web_komentar';
+$host = 'localhost';
+$username = 'root'; // default XAMPP username
+$password = ''; // default XAMPP password
+$dbname = 'web_komentar';
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
